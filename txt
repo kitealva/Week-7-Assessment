@@ -1,0 +1,16 @@
+1. extraLargeArray: Insert 638.3409 ms & Append 2.445 ms.
+
+2. tinyArray: Insert 639.0905 ms & 82.1 nanoseconds.
+
+3. smallArray: Insert 633.9559 ms & 82.2 nanoseconds.
+
+4. mediumArray: Insert 625.6962 ms & 113.6 nanoseconds.
+
+5. largeArray: Insert 636.6251 ms & 454.3 nanoseconds.
+
+5. The append function runs the times faster if it is larger and then the insert will run faster for the smaller sized amounts.
+
+6. The reason why it would be more so slower is because it has to take from a already existing thing and take that copy. The other would be faster just because you can insert something new rather than search and find a copy you use. The un shift of the object makes it slower as well
+
+
+
